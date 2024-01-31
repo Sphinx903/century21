@@ -31,6 +31,10 @@ a:hover,
 a:focus {
   color: #0085A1;
 }
+img{
+  transform: scale(1.1); 
+  transition: transform 0.3s ease;
+}
 a img:hover,
 a img:focus {
   cursor: zoom-in;
